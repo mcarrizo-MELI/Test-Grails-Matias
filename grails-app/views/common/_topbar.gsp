@@ -5,7 +5,7 @@
    			<g:link controller="user" action="logout">Logout</g:link>
 		</g:if>
 		<g:else>
-  			<g:link controller="user" action="login">Login</g:link> algo
+  			<g:link controller="user" action="login">Login</g:link> 
 		</g:else>
 	</nobr>
 </div>	
