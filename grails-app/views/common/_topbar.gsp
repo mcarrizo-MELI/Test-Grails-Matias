@@ -2,10 +2,10 @@
 	<nobr>
   		<g:if test="${session.user}">
   			<b>${session.user?.firstName}&nbsp;${session.user?.lastName}</b> |
-   			<g:link controller="logout"><g:message code="topbar.logout" /></g:link>
+   			<g:link controller="user" action="logout">Logout</g:link>
 		</g:if>
 		<g:else>
-  			<g:link controller="login" action="auth"><g:message code="topbar.login" /></g:link>
+  			<g:link controller="user" action="login">Login</g:link> algo
 		</g:else>
 	</nobr>
 </div>	
